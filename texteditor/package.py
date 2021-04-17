@@ -1,13 +1,14 @@
 name = "texteditor"
-version = "3.36.2"
+version = "1.0.0"
 build_command = False
 
 def commands():
-	import os
-	global alias
-	
-	if os.name == "posix":
-		alias("texteditor", r"gedit")
-	elif os.name == "nt":
-		alias("texteditor", r"notepad")
+    import os
+    global alias
 
+    if os.name == "nt":
+        alias("texteditor", r"notepad")
+    elif os.name == "darwin":
+        alias("texteditor", r"textedit")
+    else:
+        alias("texteditor", r"gedit")
