@@ -1,6 +1,7 @@
 name = "firstman"
-version = "1.0.2"
+version = "1.0.3"
 build_command = "python {root}/install.py"
+# build_command = "python -m rezutil build {root}"
 
 # Define arbitrary data, label and icon are understandable by allzpark.
 _data = {

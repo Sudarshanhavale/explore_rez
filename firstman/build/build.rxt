@@ -3,7 +3,7 @@
     "arch": "x86_64",
     "building": true,
     "caching": true,
-    "created": 1618857159,
+    "created": 1618860094,
     "default_patch_lock": "no_lock",
     "failure_description": null,
     "from_cache": false,
@@ -80,9 +80,9 @@
     "rez_path": "/home/sudarshan/.local/lib/python3.8/site-packages/rez",
     "rez_version": "2.84.0",
     "serialize_version": "4.7",
-    "solve_time": 0.013829708099365234,
+    "solve_time": 0.0033316612243652344,
     "status": "solved",
     "suite_context_name": null,
-    "timestamp": 1618857159,
+    "timestamp": 1618860094,
     "user": "sudarshan"
 }

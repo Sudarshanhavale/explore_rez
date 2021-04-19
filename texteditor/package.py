@@ -2,6 +2,7 @@ name = "texteditor"
 version = "1.0.0"
 build_command = False
 
+
 def commands():
     import os
     global alias
